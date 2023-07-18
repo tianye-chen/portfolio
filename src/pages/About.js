@@ -13,7 +13,7 @@ export const About = () => {
           <p class="text-white text-xl font-thin mt-2"> With the tech industry constantly evolving, I am excited to see where the industry will take me.</p>
         </div>
         <div class="absolute right-0 w-[40%] translate-x-20 translate-y-[-20%] border-l-4 border-[#00FFA7] pl-2">
-          <img src={manhattanBridge}/>
+          <img src={manhattanBridge} alt="The Manhattan Bridge viewed from Brooklyn"/>
         </div>
       </div>
     </div>

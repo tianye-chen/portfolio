@@ -38,7 +38,7 @@ export const Home = () => {
       </div>
 
       <div class="absolute right-0 w-[50%] translate-x-[100px]">
-        <img src={vectorArt}/>
+        <img src={vectorArt} alt=""/>
       </div>
     </div>
   );

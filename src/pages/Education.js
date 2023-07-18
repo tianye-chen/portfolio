@@ -14,7 +14,7 @@ export const Education = () => {
           <img src={bcLogo} alt="Brooklyn College logo" class="w-[65%]" />
         </div>
         <div class="flex flex-row items-center border-l-8 border-[#7b2240] pl-4 overflow-hidden">
-          <img src={bcCampus} class="w-[80%]" />
+          <img src={bcCampus} alt="The Brooklyn College campus"class="w-[80%]" />
         </div>
         <div class="text-right text-lg pr-4 mt-5">
           {" "}

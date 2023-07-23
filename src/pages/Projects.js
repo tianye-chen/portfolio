@@ -5,7 +5,7 @@ import muschart from "../images/muschart.png";
 
 export const Projects = () => {
   return (
-    <div name="projects" class="h-screen w-screen flex flex-col justify-center px-8 mx-auto">
+    <div name="projects" class="flex-shrink-0 w-screen min-h-screen justify-center px-8">
       {/* Title */}
 
       <h1 class="text-white text-6xl font-bold border-b-4 border-[#00FFA7] w-min"> Projects </h1>

@@ -3,7 +3,7 @@ import { SkillCard } from "../Components/ItemCard.js";
 
 export const Skills = () => {
   return (
-    <div name="skills" class="h-screen w-screen flex flex-col justify-center px-8 mx-auto">
+    <div name="skills" class="flex-shrink-0 w-screen min-h-screen justify-center px-8">
 
       {/* Title */}
       <h1 class="text-white text-6xl font-bold border-b-4 border-[#00FFA7] w-min h-min"> Skills </h1>

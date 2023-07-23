@@ -8,7 +8,7 @@ import { Projects } from "./pages/Projects.js";
 
 function App() {
   return (
-    <Layout >
+    <Layout>
         <Home />
         <About />
         <Education />

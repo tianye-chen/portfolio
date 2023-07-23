@@ -4,9 +4,9 @@ import { Navbar } from "./Navbar.js";
 export const Layout = (props) => {
   return (
     <Fragment>
-      <Navbar />
+      <Navbar/>
 
-      <main class="select-none">
+      <main class="select-none flex">
         {props.children}
       </main>
     </Fragment>

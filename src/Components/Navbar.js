@@ -11,19 +11,19 @@ export const Navbar = () => {
         {" "}{"<tianyechen />"}{" "}
       </h1>
       <ul class="md:flex items-center justify-end w-min hidden">
-        <Link to="home" smooth="true" duration="500" onClick={() => setActiveItem("Home")}>
+        <Link to="home" smooth="true" duration="500" onClick={() => setActiveItem("Home")} offset={-window.innerWidth}>
           <NavItem text="Home" activeItem={activeItem}/>
         </Link>
-        <Link to="about" smooth="true" duration="500" onClick={() => setActiveItem("About")}>
+        <Link to="about" smooth="true" duration="500" onClick={() => setActiveItem("About")} offset={-window.innerWidth}>
           <NavItem text="About" activeItem={activeItem}/>
         </Link>
-        <Link to="education" smooth="true" duration="500" onClick={() => setActiveItem("Education")}>
+        <Link to="education" smooth="true" duration="500" onClick={() => setActiveItem("Education")} offset={-window.innerWidth}>
           <NavItem text="Education" activeItem={activeItem}/>
         </Link>
-        <Link to="skills" smooth="true" duration="500" onClick={() => setActiveItem("Skills")}>
+        <Link to="skills" smooth="true" duration="500" onClick={() => setActiveItem("Skills")} offset={-window.innerWidth}>
           <NavItem text="Skills" activeItem={activeItem}/>
         </Link>
-        <Link to="projects" smooth="true" duration="500" onClick={() => setActiveItem("Projects")}>
+        <Link to="projects" smooth="true" duration="500" onClick={() => setActiveItem("Projects")} offset={-window.innerWidth}>
           <NavItem text="Projects" activeItem={activeItem}/>
         </Link>
       </ul>

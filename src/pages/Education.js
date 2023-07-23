@@ -4,7 +4,7 @@ import bcCampus from "../images/brooklyn-college-campus.jpeg";
 
 export const Education = () => {
   return (
-    <div name="education" class="h-screen w-screen flex flex-col justify-center px-8 mx-auto">
+    <div name="education" class="flex-shrink-0 w-screen min-h-screen justify-center px-8">
       {/* Title */}
       <h1 class="text-white text-6xl font-bold border-b-4 border-[#00FFA7] w-min"> Education </h1>
 

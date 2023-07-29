@@ -6,10 +6,10 @@ export const Education = () => {
   return (
     <div name="education" class="h-screen w-screen flex flex-col justify-center px-8 mx-auto">
       {/* Title */}
-      <h1 class="text-white text-6xl font-bold border-b-4 border-[#00FFA7] w-min"> Education </h1>
+      <h1 class="text-dark-text text-6xl font-bold border-b-4 border-mint w-min"> Education </h1>
 
       {/* Info grid */}
-      <div class="grid grid-rows-2 grid-cols-2 h-[50%] mt-12 text-white">
+      <div class="grid grid-rows-2 grid-cols-2 h-[50%] mt-12 text-dark-text">
         <div class="flex flex-col items-end mr-8">
           <img src={bcLogo} alt="Brooklyn College logo" class="w-[65%]" />
         </div>
@@ -21,7 +21,10 @@ export const Education = () => {
           Multimedia Programming, Data Structures, Discrete Structures, Game Design and Development, Software Engineering, Linear Algebra, Large Scale
           Web Development
         </div>
-        <div class="border-l-8 border-[#fad129] pl-4 pt-4 text-[#fad129] text-4xl font-thin"> Relevant Courses </div>
+        <div class="border-l-8 border-[#fad129] pl-4 pt-4 text-[#fad129] text-4xl font-thin"> 
+          <h1>Computer Science B.S</h1>
+          <h2 class="text-2xl">Relevant Courses </h2>
+        </div>
       </div>
     </div>
   );

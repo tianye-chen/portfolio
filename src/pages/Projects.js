@@ -8,13 +8,13 @@ export const Projects = () => {
     <div name="projects" class="h-screen w-screen flex flex-col justify-center px-8 mx-auto">
       {/* Title */}
 
-      <h1 class="text-white text-6xl font-bold border-b-4 border-[#00FFA7] w-min"> Projects </h1>
+      <h1 class="text-dark-text text-6xl font-bold border-b-4 border-mint w-min"> Projects </h1>
 
       {/* Project cards */}
-      <div class="grid grid-rows-1 grid-cols-2 text-white mt-6 gap-4">
+      <div class="grid grid-rows-1 grid-cols-2 text-dark-text mt-6 gap-4">
 
         {/* Worldreaver card */}
-        <div class="border-b-4 border-[#00FFA7] rounded-sm">
+        <div class="border-b-4 border-mint rounded-sm">
           <ProjectItemCard
             title="Worldreaver"
             repo="https://github.com/tianye-chen/worldreaver-unity-game-project"
@@ -28,7 +28,7 @@ export const Projects = () => {
           />
         </div>
         
-        <div class="border-t-4 border-[#00FFA7] ">
+        <div class="border-t-4 border-mint">
           <ProjectItemCard
             title="MusChart"
             repo="https://github.com/tianye-chen/music-app"

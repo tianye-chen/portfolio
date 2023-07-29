@@ -6,7 +6,7 @@ export const Layout = (props) => {
     <Fragment>
       <Navbar />
 
-      <main class="select-none">
+      <main class="select-none bg-dark-bg">
         {props.children}
       </main>
     </Fragment>
